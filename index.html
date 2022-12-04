@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,35 +9,44 @@
     <title>Desarrollador web front-end
     </title>
 </head>
+
 <body>
     <header>
         <h1 class="tituloInicial">SUPER TIENDAS SAN MARTÍN</h1>
+        <h2 class="tituloSecundario">Todo lo que necesitas, lo encuentras aqui</h2>
         <img class="logo" src="imagenes/cas2.png" alt="logo">
-        <h2 class="tituloInicial">Todo lo que necesitas, lo encuentras aqui</h2>
-        <nav id="navegacion">
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
+        <nav>
+            <ul class="barraNavegacion">
+                <li class="nav_item">
+                    <a class="barra" href="./index.html">Inicio</a>
                 </li>
-                <li>
-                    <a href="./quiénes-somos.html">Quiénes somos</a>
+                <li class="nav_item">
+                    <a class="barra" href="./quiénes-somos.html">Quiénes somos</a>
                 </li>
-                <li>
-                    <a href="./misión.html">Misión</a>
+                <li class="nav_item">
+                    <a class="barra" href="./misión.html">Misión</a>
                 </li>
-                <li>
-                    <a href="./visión.html">Visión</a>
+                <li class="nav_item">
+                    <a class="barra" href="./visión.html">Visión</a>
                 </li>
-                <li>
-                    <a href="./contactanos.html">Contactanos</a>
+                <li class="nav_item">
+                    <a class="barra" href="./contactanos.html">Contactanos</a>
+                </li>
+                <li class="nav_item" >
+                    <img class="muñecoBusqueda" src="imagenes/Mi proyecto (1).png" alt="muñecoBusqueda">
+                    <input type="text" name="Busqueda" id="Busqueda" placeholder="Buscar">
+                </li>
+                <li class="nav_item">
+                    <img class="logo2" src="imagenes/Mi proyecto.png"  alt="carroCompra">
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <h3>SUCURALES FÍSICAS</h3>
-        <p>Recuerda que estamos cerca de ti, es por eso que nuestras tiendas físicas estan en las principales ciudades:</p>
-        <ol>
+        <p>Recuerda que estamos cerca de ti, es por eso que nuestras tiendas físicas estan en las principales ciudades:
+        </p>
+        <ol class="sucursalesMEX">
             <li>Monterrey</li>
             <li>Tijuana</li>
             <li>Ciudad de México</li>
@@ -46,11 +56,12 @@
             <li>Cancún,quintana roo</li>
         </ol>
         <h4>TIENDA EN LINEA</h4>
-        <p>Comprando en nuestra tienda oline , disfruta de nuestras amplias secciones donde seguro encontraras todo lo que necesitas a precios increibles y de las mejores marcas.</p>
-        <P>Tus pedidos llegaran hasta la comodidad de tu hogar de forma segura y con el tiempo justo.</P>
+        <p>Comprando en nuestra tienda oline , disfruta de nuestras amplias secciones donde seguro encontraras todo lo
+            que necesitas a precios increibles y de las mejores marcas. <P>Tus pedidos llegaran hasta la comodidad de tu hogar de forma segura y con el tiempo justo.</P>
+        </p>
         <img src="imagenes/CELONLINE.gif" alt="tiendita">
         <form id="seccionesOnline" action="">
-            <div>SERVICIO-DESPENSA</div>
+            <div>SERVICIO-DESPENSA</div> 
             <input type="radio" name="servicio" id="">
             <div>SERVICIO-FRESCOS</div>
             <input type="radio" name="servicio" id="">
@@ -83,5 +94,8 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+   
+
 </body>
+
 </html>
