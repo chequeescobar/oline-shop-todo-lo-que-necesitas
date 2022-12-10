@@ -10,24 +10,21 @@
 }
 
 .tituloInicial{
-    height: 20px;
+    height: 70px;
     text-align: center;
-    font-size: 30;
+    font-size: 10;
     text-transform: uppercase;
     background-color:#21486C;
-    color:#EBE2D8;
+    color: whitesmoke;
     border: solid #030F2F;
     border-color: #656256;
-    padding: 15px;
+    padding: 25px;
 }
-.tituloInicial::first-letter{
-    color: #0a0a0a; 
-    font-size: 36px;
-}
+
 .tituloSecundario{
-    height: 20px;
+    height: 15px;
     text-align: center;
-    font-size: 35;
+    font-size: 18px;
     text-transform: uppercase;
     background-color:#21486C;
     color:#EBE2D8;
@@ -77,28 +74,58 @@ h5{
     font-size: 25px;
     border: solid #030F2F;
 }
-
-
-
-
 .barra{
-    color:#0a0a0a
+    color: black;
 }
+
+
+
 
 P{
     display: inline;
 }
 
+.gridContainerColumns{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+    padding: 1px;
+    border-radius: 15px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.boton1{
+    color: whitesmoke;
+    background-color: #31CB00;
+}
+.boton1:hover{
+    color: whitesmoke;
+    background-color: red;
+    font-size: 25px;
+}
+.boton2{
+    color:black;
+    background-color: #31CB00;
+}
+.boton2:hover{
+    color: black;
+    background-color: red;
+}
 .barraNavegacion{
-    gap: 3px;
+    justify-content: space-evenly;
     display: flex;
     background-color:whitesmoke;
-    height: 40px;
+    height: 67px;
     border: 1rem;
-    font-size: 25px;
+    font-size: 20px;
     color:black;
     border-style: double;
     border-color: #21486C;
+    border-radius: 2rem;
 
     list-style: none;
 
@@ -108,8 +135,8 @@ P{
     flex-grow: 1;
     flex-shrink: 0;
     list-style: none;
-    border-style: double;
     border-color: black;
+    border-radius: 25px;
 
     list-style: none;
 }
@@ -122,11 +149,50 @@ P{
     font-size: 20px;
 }
 .logo2 {
-    width: 36px;
+    width: 37px;
 }
-.muñecoBusqueda{
-    width: 20px;
+.munecoBusqueda{
+    width: 29px;
 }
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 500px)  { 
+    body{
+        background-color: #31CB00;
+    }
+    .barraNavegacion{
+        gap: 1rem;
+        background-color: #0a0a0a;
+        color: aliceblue;
+        border-style: dotted;
+        border-color: #EBE2D8;
+    }
+    .barra{
+        color: #EBE2D8;
+    }
+    
+}
+@media only screen and (min-width: 501px) and (max-width: 1000px)  { 
+    body{
+        background-color: #FFFC31;
+        justify-content: space-evenly;
+    }
+    
+}
+@media only screen and (min-width: 1001px) and (max-width: 1440px)  { 
+    body{
+        background-color:rgb(245, 245, 245);
+    }
+    
+}
+
+
+
+
 
 
 
