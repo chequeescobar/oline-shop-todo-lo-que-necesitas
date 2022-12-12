@@ -1,0 +1,37 @@
+header .tituloInicial, header main h3, main header h3 {
+  font-family: "/* familia de fuentes: 'Playfair Display SC', serif;*/";
+}
+header .tituloSecundario {
+  font-family: "/* familia de fuentes: 'Playfair Display SC', serif;*/";
+}
+header nav ul li {
+  font-family: "/* familia de fuentes: 'Playfair Display SC', serif;*/";
+}
+
+header nav ul li .boton1 {
+  color: whitesmoke;
+  background-color: #31CB00;
+  border-radius: 15px;
+}
+header nav ul li .botoncancelarCompra {
+  color: whitesmoke;
+  background-color: rgb(255, 251, 0);
+  border-radius: 15px;
+}
+header nav ul li .botonEnviar {
+  color: whitesmoke;
+  background-color: #31CB00;
+  border-radius: 15px;
+}
+
+main h3 {
+  font-family: "/* familia de fuentes: 'Playfair Display SC', serif;*/";
+}
+main p {
+  font-family: "/* familia de fuentes: 'Playfair Display SC', serif;*/";
+}
+main ol li {
+  font-family: "/* familia de fuentes: 'Playfair Display SC', serif;*/";
+}
+
+/*# sourceMappingURL=base.css.map */

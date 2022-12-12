@@ -1,0 +1,5 @@
+@mixin botonesPrincipales ($fondobotones){
+    color: whitesmoke;
+    background-color:$fondobotones;
+    border-radius: 15px;
+}

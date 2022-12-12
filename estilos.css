@@ -6,7 +6,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Playfair Display SC', serif;
+    
 }
 
 .tituloInicial{
@@ -38,7 +38,7 @@
 }
 
 #navegacion{
-    font-size: 20px;
+    font-size: 30px;
     border-style: dotted #21486C;
     text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ h3,h4 {
     background-color: #21486C;
     color: #EBE2D8;
     border: solid #030F2F;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 #seccionesOnline{
@@ -75,7 +75,7 @@ h5{
     border: solid #030F2F;
 }
 .barra{
-    color: black;
+    color: rgb(12, 12, 12);
 }
 
 
@@ -107,13 +107,24 @@ P{
     background-color: red;
     font-size: 25px;
 }
-.boton2{
-    color:black;
+.botoncancelarCompra{
+    color: black;
     background-color: #31CB00;
 }
-.boton2:hover{
+.botoncancelarCompra:hover{
     color: black;
     background-color: red;
+    font-size: 25px;
+}
+
+.botonEnviar{
+    color: whitesmoke;
+    background-color: #31CB00;
+}
+.botonEnviar:hover{
+    color: whitesmoke;
+    background-color: red;
+    font-size: 25px;
 }
 .barraNavegacion{
     justify-content: space-evenly;
@@ -168,27 +179,45 @@ P{
         gap: 1rem;
         background-color: #0a0a0a;
         color: aliceblue;
-        border-style: dotted;
+        border-style: double;
         border-color: #EBE2D8;
+        font-size: 7px;
+        text-align: center;
     }
     .barra{
         color: #EBE2D8;
     }
+    .nav_item{
+        margin: 3;
+    }
     
 }
 @media only screen and (min-width: 501px) and (max-width: 1000px)  { 
+    .barraNavegacion{
+        font-size: 10px;
+    }
     body{
+        gap: 1rem;
         background-color: #FFFC31;
         justify-content: space-evenly;
+        font-size: 15px;
+        text-align: center;
     }
     
 }
 @media only screen and (min-width: 1001px) and (max-width: 1440px)  { 
+    .barraNavegacion{
+        font-size: 21px;
+    }
     body{
         background-color:rgb(245, 245, 245);
+        font-size: 20px;
+
     }
     
 }
+
+
 
 
 

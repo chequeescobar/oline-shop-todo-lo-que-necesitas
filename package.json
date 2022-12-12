@@ -1,0 +1,20 @@
+{
+  "name": "oline-shop-todo-lo-que-necesitas",
+  "version": "1.0.0",
+  "description": "Es una tienda en linea donde podrás encontrar todo lo que necesitas en tu día a día  y que llega en tiempo, con toda la cantidad y calidad que tu requieres.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chequeescobar/oline-shop-todo-lo-que-necesitas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chequeescobar/oline-shop-todo-lo-que-necesitas/issues"
+  },
+  "homepage": "https://github.com/chequeescobar/oline-shop-todo-lo-que-necesitas#readme"
+}

@@ -1,0 +1,14 @@
+main{
+    h3{
+       font-family: $tipografiaPrincipal; 
+       @extend .tituloInicial
+    }
+    p{
+        font-family: $tipografiaPrincipal;
+    }
+    ol{
+        li{
+            font-family: $tipografiaPrincipal;
+        }
+    }
+}

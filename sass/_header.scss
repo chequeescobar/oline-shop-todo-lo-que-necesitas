@@ -1,0 +1,36 @@
+header{
+    .tituloInicial{
+        font-family: $tipografiaPrincipal
+    }
+    .tituloSecundario{
+        font-family: $tipografiaPrincipal;
+    }
+    nav{
+        ul{
+            li{
+                font-family: $tipografiaPrincipal;
+            }
+        }
+    }
+
+}
+header{
+    nav{
+        ul{
+            li{
+                .boton1{
+                    @include botonesPrincipales (#31CB00)
+                }
+                .botoncancelarCompra{
+                    @include botonesPrincipales (rgb(255, 251, 0))
+                }
+                .botonEnviar{
+                    @include botonesPrincipales (#31CB00)
+
+                }
+
+
+            }
+        }
+    }
+}
