@@ -10,15 +10,16 @@
 //}
 
 //limitadas
-let nombre = "Ezequiel";
-if(nombre){
-  let nombre = "Isabella";
-  console.log(nombre);
-}
-console.log(nombre);
+//let nombre = "Ezequiel";
+//if(nombre){
+  //let nombre = "Isabella";
+  //console.log(nombre);
+//}
+//console.log(nombre);
 
-
-
+//inmutables
+const apellido = "Urrutia";
+console.log(apellido);
 
 
 //let nombreUsuario = prompt("hola! ¿Cómo te llamas?");
