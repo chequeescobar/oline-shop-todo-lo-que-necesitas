@@ -70,7 +70,57 @@ console.log(apellido);
 //}
 
 
+let edad= prompt("ingrese su edad: ");
+if (edad <18){
+  alert("invalido su acceso al sistema");
+}else if (edad >=18){
+  alert("su acceso al sistema es valido");
+}
 
 
+
+
+const servicioDespensa = [
+  {id: 1, img:"imagenes2/aceite.jpg", nombre: "aceite nutrioli 1L", precio: 34},
+  {id: 2, img:"imagenes2/aceite2.jpg", nombre: "aceite oléico 1L", precio: 42},
+  {id: 3, img:"imagenes2/arroz1.jpg", nombre: "bolsa arroz SOS azul 1kg", precio: 28},
+  {id: 4, img:"imagenes2/arroz2.jpg", nombre: "bolsa arroz SOS rojo ikg", precio: 26},
+  {id: 5, img:"imagenes2/arroz3.jpg", nombre: "bolsa arroz SOS amarillo 1kg", precio: 34},
+  {id: 6, img:"imagenes2/azucar1.jpg", nombre: "bolsa de azucar morena 2kg", precio: 40},
+  {id: 7, img:"imagenes2/azucar2.jpg", nombre: "bolsa de azucar blanca 2kg", precio: 48},
+  {id: 8, img:"imagenes2/azucar3.jpg", nombre: "bolsa de azucar refinada 2kg", precio: 60},
+  {id: 9, img:"imagenes2/huevos1.jpg", nombre: "2 kg de huevo tehuacan", precio: 42},
+  {id: 10, img:"imagenes2/sal1.jpg", nombre: "bolsa de sal 1kg", precio: 13},
+ ];
+
+ //console.log(servicioDespensa)
+
+ const carritoCompras = [];
+ //console.log("el carrito de compras actualemente tiene : ", carritoCompras);
+
+ //carritoCompras.push(servicioDespensa [1]);
+ //console.log("el carrito de compras actualemente tiene : ", carritoCompras);
+
+ for (let i = 0; i < servicioDespensa.length; i++){
+  console.log ("los productos de este array: ", servicioDespensa)
+ }
+
+
+let venta = "Entrada al cine";
+
+switch(venta){
+  case "<=8 años":
+    console.log("el cliente recibe un 5% en su entrada");
+    break;
+  case ">18 años":
+    console.log("el cliente recibe un 5% en su consumo");
+    break;
+  case ">=60 años":
+    console.log("el cliente recibe un 10% en su entrada");
+    break;
+  default:
+    console.log("el ciente por su edad no recibe promoción");
+    break;
+}
 
 
